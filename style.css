@@ -1,0 +1,79 @@
+body {
+  background-color: blue;
+}
+
+/* -----HEADER----- */
+
+/* Have to set header to be invisible at top and then visible once past the guy with the headphones. */
+header {
+  position: fixed;
+  top: 0;
+  /*background-color: #F6F6F6;*/
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: #6A787C;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+#headLeft {
+  margin-left: 100px;
+}
+
+#headPrivacy {
+   color: #BDD436;
+   font-size: 12px;
+}
+
+/* Contact class info is at bottom of document, under the FOOTER section. */
+
+
+/* -----MAIN----- */
+
+.banner {
+  background-image: url("./tri-banner.png");
+  height: 68vh;
+  width: 100vw;
+}
+
+
+/* -----FOOTER----- */
+
+/* Don't worry about pushing it to the bottom, that will happen naturally as we stack more divs on top */
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #F6F6F6;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer a {
+  color: #6A787C;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+#footLeft {
+  margin-left: 100px;
+}
+
+#footPrivacy {
+   color: #BDD436;
+   font-size: 12px;
+}
+
+.contact {
+  margin-right: 100px;
+}
