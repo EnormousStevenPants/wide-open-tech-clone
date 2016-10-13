@@ -124,6 +124,18 @@ header a {
   line-height: 46px;
 }
 
+.main2 {
+  flex-wrap: nowrap;
+}
+
+.main21 {
+  border-right: 1px solid black;
+}
+
+.main22 {
+  border-right: 1px solid black;
+}
+
 /* -----FOOTER----- */
 
 footer {
