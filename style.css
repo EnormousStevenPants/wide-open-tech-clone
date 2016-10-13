@@ -2,6 +2,8 @@ body {
   background-color: blue;
 }
 
+
+
 /* -----HEADER----- */
 
 /* Have to set header to be invisible at top and then visible once past the guy with the headphones. */
@@ -34,14 +36,52 @@ header a {
 
 /* Contact class info is at bottom of document, under the FOOTER section. */
 
-
-/* -----MAIN----- */
+/* -----BANNER----- */
 
 .banner {
   background-image: url("./tri-banner.png");
   height: 68vh;
   width: 100vw;
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: center;
+  align-items: center;
 }
+
+#banner-text {
+  background-color: blue;
+  height: 30vh;
+  width: 80vh;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0;
+}
+
+.your-digital {
+  font-size: 20px;
+}
+
+/* Why is it that when I adjust the font size below, the margins get bigger? */
+
+/*.workshop {
+  font-size: 64px;
+}*/
+
+.building {
+  align-self: center;
+}
+
+#learn-more {
+  position: absolute;
+  margin-top: 25vh;
+}
+
+/* -----MAIN----- */
+
+
 
 
 /* -----FOOTER----- */
