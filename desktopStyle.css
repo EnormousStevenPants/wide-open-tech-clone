@@ -1,6 +1,5 @@
 body {
-  font-family: "Oswald", sans-serif;
-  font-weight: lighter;
+
 }
 
 /* Perhaps because of the Normalize.css, I had to put this in to get everything to line up in the banner. */
@@ -16,7 +15,7 @@ p {
 /* Have to set header to be invisible at top and then visible once past the guy with the headphones. */
 header {
   position: fixed;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0);
   top: 0;
   height: 10vh;
   width: 100vw;
@@ -32,26 +31,21 @@ header a {
   margin-right: 30px;
 }
 
-header i {
-  color: #899497;
-}
-
 #headLeft {
   margin-left: 100px;
 }
 
 #headRightBig {
-  display: none;
+  display: block;
 }
 
 #headRightSmall {
-  display: block;
-  margin-right: 100px;
+  display: none;
 }
 
 #logo {
-  height: 60px;
-  width: 300px;
+  height: 40px;
+  width: 200px;
 }
 
 
@@ -62,9 +56,8 @@ header i {
 /* Gotta get the banner image to fit correctly */
 .banner {
   background-image: url("banner-guy.png");
-  background-position: center;
-  background-size: auto 100%;
-  height: 60vh;
+  background-size: 100% auto;
+  height: 68vh;
   width: 100vw;
   display: flex;
   /*flex-direction: column;*/
@@ -75,32 +68,30 @@ header i {
 #banner-text {
   color: #ffffff;
   height: 40vh;
-  width: 60vh;
+  width: 90vh;
   font-family: "Oswald", sans-serif;
-  font-weight: lighter;
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+  margin: 0;
 }
 
 .your-digital {
-  font-size: 50px;
+  font-size: 20px;
 }
 
+/* Why is it that when I adjust the font size below, the margins get bigger? */
 
 .workshop {
-  font-size: 170px;
-  line-height: 140px;
+  font-size: 155px;
   padding: 0;
 }
 
 .building {
   align-self: center;
   margin-top: 3vh;
-  font-size: 50px;
+  font-size: 18px;
   line-height: 20px;
 }
 
@@ -113,53 +104,31 @@ header i {
 }
 
 #learn-more {
-  font-family: serif;
-  font-size: 40px;
-  color: white;
-  background-color: #C8E23A;
-  position: absolute;
-  margin-top: 20vh;
-  padding: 2vh 30vw;
-  border-radius: 50px;
+  font-size: 16px;
+  line-height: 23px;
+  font-family: "Open Sans", sans-serif;
+  padding: 2vh 5vw;
 }
+
+
 
 /* -----MAIN----- */
 
-.main1 {
-  background-color: #F0F0F0;
-  color: #6A787C;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 #spiel {
-  margin: 80px 40px 80px 30px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 48px;
-  line-height: 100px;
-}
-
-.fa-wrench {
-  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 #here {
-  font-size: 84px;
-  /*line-height: 46px;*/
+  font-size: 42px;
+  line-height: 46px;
 }
-
-#works {
-  color: #C8E23A;
-}
-
 
 /* -----FOOTER----- */
 
 footer {
   background-color: #F6F6F6;
+  font-family: serif;
   height: 10vh;
   width: 100vw;
   display: flex;
@@ -170,19 +139,23 @@ footer {
 
 footer a {
   color: #6A787C;
+  font-size: 12px;
+  line-height: 17px;
   text-decoration: none;
   margin-right: 30px;
 }
 
 #footLeft {
-  margin-left: 100px;
+  margin-left: 200px;
+  font-size: 12px;
+  line-height: 25px;
 }
 
 #footPrivacy {
    color: #BDD436;
-   font-size: 12px;
+   font-size: 10px;
 }
 
 .contact {
-  margin-right: 100px;
+  margin-right: 200px;
 }

@@ -4,34 +4,54 @@
     <meta charset="utf-8">
     <title>Wide Open Tech Clone</title>
     <link rel="stylesheet" href="./normalize.css" media="screen" title="no title">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./desktopStyle.css" media="(min-width: 992px)" title="no title">
+    <link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
   </head>
   <body>
 
     <header>
-      <div id="headLeft"><p>Logo goes here</p></div>
-      <div id="headRight">
-        <a href="http://wideopentech.com/services/ecommerce" target="_blank">Services</a>
-        <a href="http://wideopentech.com/company" target="_blank">Company</a>
-        <a href="http://wideopentech.com/portfolio" target="_blank">Portfolio</a>
-        <a href="" target="_blank">Careers</a>
-        <a href="" target="_blank">Blog</a>
-        <a href="" target="_blank" class="contact">Contact</a>
+      <div id="headLeft"><img id="logo" src="./logo.png" targer="_blank"></div>
+      <div id="headRightBig">
+          <a href="http://wideopentech.com/services/ecommerce" target="_blank">Services</a>
+          <a href="http://wideopentech.com/company" target="_blank">Company</a>
+          <a href="http://wideopentech.com/portfolio" target="_blank">Portfolio</a>
+          <a href="" target="_blank">Careers</a>
+          <a href="" target="_blank">Blog</a>
+          <a href="" target="_blank" class="contact">Contact</a>
+      </div>
+      <div id="headRightSmall">
+        <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
       </div>
     </header>
 
+                            <!-- *******BANNER******* -->
+
     <div class="banner">
       <div id="banner-text">
-        <div class="your-digital"><p>YOUR DIGITAL</p></div>
+        <!-- <div class="your-digital"><p>YOUR DIGITAL</p></div>
         <div class="workshop"><p>WORKSHOP</p></div>
-        <div class="building"><p>Building Business Solutions & Bright Ideas</p></div>
+        <div class="building"><p>Building Business Solutions & Bright Ideas</p></div> -->
+        <p class="your-digital">YOUR DIGITAL</p>
+        <p class="workshop">WORKSHOP</p>
+        <p class="building">Building Business <span id="sol">Solutions</span> & Bright <span id="ideas">Ideas</span></p>
       </div>
       <button id="learn-more">Learn More</button>
     </div>
 
+                            <!-- **********MAIN*********** -->
+
     <main>
+      <div class="main1">
+        <p id="spiel">Wide Open Technologies brings enterprise-level technology to small and mid-sized companies - building the digital technology that solves unique problems, works better and turns ideas into functional reality.
+        </p>
+        <i class="fa fa-wrench fa-5x"></i>
+        <p id="here">HERE'S HOW IT <span id="works">WORKS</span></p>
+      </div>
     </main>
+
+                            <!-- ********FOOTER******** -->
 
     <footer>
       <div id="footLeft"><p>&#169 Wide Open Technologies - <a id="footPrivacy" href="http://wideopentech.com/site/privacy" target="_blank">Privacy</a></p>
@@ -40,7 +60,9 @@
         <a href="http://wideopentech.com/services/ecommerce" target="_blank">Services</a>
         <a href="http://wideopentech.com/company" target="_blank">Company</a>
         <a href="http://wideopentech.com/portfolio" target="_blank">Portfolio</a>
-        <ahref="" target="_blank" class="contact">Contact</a>
+        <a href="" target="_blank">Careers</a>
+        <a href="" target="_blank">Blog</a>
+        <a href="" target="_blank" class="contact">Contact</a>
       </div>
     </footer>
 
